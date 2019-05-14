@@ -13,3 +13,9 @@ User.create(username: 'ravi1', password: 'ravi1')
 User.create(username: 'ravi2', password: 'ravi2')
 User.create(username: 'ravi3', password: 'ravi3')
 User.create(username: 'ravi4', password: 'ravi4')
+
+
+Message.create(body: 'Hi,This is the second message', user: User.find(2))
+Message.create(body: 'Hi,This is the third message', user: User.find(3))
+Message.create(body: 'Hi,This is the test message', user: User.find(4))
+Message.create(body: 'Hi,This is the second message', user: User.find(5))
